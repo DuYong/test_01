@@ -6,6 +6,8 @@ var express = require('express'),
 // express setting
 var app = express();
 
+//test call
+
 app.configure(function() {
 	app.set('port', process.env.PORT || 3000);
 	app.set('views', __dirname + '/views');
